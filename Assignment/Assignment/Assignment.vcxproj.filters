@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Jogo">
+      <UniqueIdentifier>{f583e76d-ba12-410d-82c6-5df8d5fc6dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo">
+      <UniqueIdentifier>{5b0d4fa6-3939-4e5d-a4b7-110b967bd5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo\Territorios">
+      <UniqueIdentifier>{c4713b6e-1a45-44f2-9ba5-fd8f4b69be0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo\Territorios\Territorio_Inicial">
+      <UniqueIdentifier>{fb7fb856-a02c-4f7c-b805-09ea13be451e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo\Territorios\Continente">
+      <UniqueIdentifier>{5754993d-ad27-4fde-ac70-442f77500bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo\Territorios\Ilha">
+      <UniqueIdentifier>{4535cff4-996d-450e-ab0f-8ed9a16dd82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo\Territorios">
+      <UniqueIdentifier>{6a4bad1d-63a2-4e98-8285-3bbc414488cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo\Territorios\Territorio_Inicial">
+      <UniqueIdentifier>{913ad30b-bcee-4233-9928-2fef2884fbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo\Territorios\Continente">
+      <UniqueIdentifier>{d464fb97-2942-4643-89b3-71c0e5dc8aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo\Territorios\Ilha">
+      <UniqueIdentifier>{9bb57135-a517-4a92-a24d-7ed958b4d8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo\Tecnologias">
+      <UniqueIdentifier>{595885b0-2b20-447a-a8ef-b7c9fab328a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo\Tecnologias">
+      <UniqueIdentifier>{a101bb5e-78c6-4396-b4c8-101172d24f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo\Evento">
+      <UniqueIdentifier>{be1ba262-c1fe-4ab7-a28d-abbd3bf398c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo\Evento">
+      <UniqueIdentifier>{5e95f951-95f0-4743-b294-59ee213c19de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Continente.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Mina.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Ilha.cpp">
+      <Filter>Source Files\Jogo\Territorios\Ilha</Filter>
+    </ClCompile>
+    <ClCompile Include="Pescaria.cpp">
+      <Filter>Source Files\Jogo\Territorios\Ilha</Filter>
+    </ClCompile>
+    <ClCompile Include="Territorio_Inicial.cpp">
+      <Filter>Source Files\Jogo\Territorios\Territorio_Inicial</Filter>
+    </ClCompile>
+    <ClCompile Include="Castelo.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Duna.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Fortaleza.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Montanha.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Planicie.cpp">
+      <Filter>Source Files\Jogo\Territorios\Continente</Filter>
+    </ClCompile>
+    <ClCompile Include="Territorio.cpp">
+      <Filter>Source Files\Jogo\Territorios</Filter>
+    </ClCompile>
+    <ClCompile Include="Refugio_Piratas.cpp">
+      <Filter>Source Files\Jogo\Territorios\Ilha</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Mundo.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperio_Jogador.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Tecnologia.cpp">
+      <Filter>Source Files\Jogo\Tecnologias</Filter>
+    </ClCompile>
+    <ClCompile Include="Drones_Militares.cpp">
+      <Filter>Source Files\Jogo\Tecnologias</Filter>
+    </ClCompile>
+    <ClCompile Include="Banco_Central.cpp">
+      <Filter>Source Files\Jogo\Tecnologias</Filter>
+    </ClCompile>
+    <ClCompile Include="Bolsa_Valores.cpp">
+      <Filter>Source Files\Jogo\Tecnologias</Filter>
+    </ClCompile>
+    <ClCompile Include="Defesas_Territoriais.cpp">
+      <Filter>Source Files\Jogo\Tecnologias</Filter>
+    </ClCompile>
+    <ClCompile Include="Misseis_Teleguiados.cpp">
+      <Filter>Source Files\Jogo\Tecnologias</Filter>
+    </ClCompile>
+    <ClCompile Include="Controlador_Interface.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Evento.cpp">
+      <Filter>Source Files\Jogo\Evento</Filter>
+    </ClCompile>
+    <ClCompile Include="Recurso_Abandonado.cpp">
+      <Filter>Source Files\Jogo\Evento</Filter>
+    </ClCompile>
+    <ClCompile Include="Invasao.cpp">
+      <Filter>Source Files\Jogo\Evento</Filter>
+    </ClCompile>
+    <ClCompile Include="Alianca_Diplomatica.cpp">
+      <Filter>Source Files\Jogo\Evento</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravacao.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Territorio_Inicial.h">
+      <Filter>Header Files\Jogo\Territorios\Territorio_Inicial</Filter>
+    </ClInclude>
+    <ClInclude Include="Territorio.h">
+      <Filter>Header Files\Jogo\Territorios</Filter>
+    </ClInclude>
+    <ClInclude Include="Pescaria.h">
+      <Filter>Header Files\Jogo\Territorios\Ilha</Filter>
+    </ClInclude>
+    <ClInclude Include="Castelo.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Continente.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Duna.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortaleza.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Ilha.h">
+      <Filter>Header Files\Jogo\Territorios\Ilha</Filter>
+    </ClInclude>
+    <ClInclude Include="Mina.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Montanha.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Planicie.h">
+      <Filter>Header Files\Jogo\Territorios\Continente</Filter>
+    </ClInclude>
+    <ClInclude Include="Refugio_Piratas.h">
+      <Filter>Header Files\Jogo\Territorios\Ilha</Filter>
+    </ClInclude>
+    <ClInclude Include="Jogo.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Mundo.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperio_Jogador.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Tecnologia.h">
+      <Filter>Header Files\Jogo\Tecnologias</Filter>
+    </ClInclude>
+    <ClInclude Include="Drones_Militares.h">
+      <Filter>Header Files\Jogo\Tecnologias</Filter>
+    </ClInclude>
+    <ClInclude Include="Defesas_Territoriais.h">
+      <Filter>Header Files\Jogo\Tecnologias</Filter>
+    </ClInclude>
+    <ClInclude Include="Banco_Central.h">
+      <Filter>Header Files\Jogo\Tecnologias</Filter>
+    </ClInclude>
+    <ClInclude Include="Bolsa_Valores.h">
+      <Filter>Header Files\Jogo\Tecnologias</Filter>
+    </ClInclude>
+    <ClInclude Include="Misseis_Teleguiados.h">
+      <Filter>Header Files\Jogo\Tecnologias</Filter>
+    </ClInclude>
+    <ClInclude Include="Controlador_Interface.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Evento.h">
+      <Filter>Header Files\Jogo\Evento</Filter>
+    </ClInclude>
+    <ClInclude Include="Recurso_Abandonado.h">
+      <Filter>Header Files\Jogo\Evento</Filter>
+    </ClInclude>
+    <ClInclude Include="Invasao.h">
+      <Filter>Header Files\Jogo\Evento</Filter>
+    </ClInclude>
+    <ClInclude Include="Alianca_Diplomatica.h">
+      <Filter>Header Files\Jogo\Evento</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravacao.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
